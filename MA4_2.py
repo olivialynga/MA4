@@ -2,7 +2,8 @@
 
 from integer import Integer
 import matplotlib
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as 
+import time
 
 def fib_py(n):
     if n<=1:
