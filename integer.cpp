@@ -21,7 +21,7 @@ int Integer::get(){
 	}
  
 int Integer::fib(){
-	return fib_(val);
+	return fib(val);
 	}
 
 int Integer::fib_(int n){
@@ -30,7 +30,7 @@ int Integer::fib_(int n){
 	else{
 		return (fib_py(n-1) + fib_py(n-2));
 	}
-	}
+	
 
 void Integer::set(int n){
 	val = n;
