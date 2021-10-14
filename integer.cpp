@@ -9,7 +9,7 @@ class Integer{
 		void set(int);
 	private:
 		int val;
-		int fib(int);
+		int fib_(int);
 	};
  
 Integer::Integer(int n){
