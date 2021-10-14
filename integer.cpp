@@ -20,16 +20,15 @@ int Integer::get(){
 	return val;
 	}
  
-int integer ::fib(){
-	return fib_(val)
+int integer::fib(){
+	return fib_(val);
 	}
-''
-int integer ::fib_(int n){
+
+int integer::fib_(int n){
 	if (n <= 1){
-		return n
-	}
+		return n;
 	else{
-		return (fib_py(n-1) + fib_py(n-2))
+		return (fib_py(n-1) + fib_py(n-2));
 	}
 	}
 
