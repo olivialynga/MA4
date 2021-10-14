@@ -20,11 +20,11 @@ int Integer::get(){
 	return val;
 	}
  
-int integer::fib(){
+int Integer::fib(){
 	return fib_(val);
 	}
 
-int integer::fib_(int n){
+int Integer::fib_(int n){
 	if (n <= 1){
 		return n;
 	else{
