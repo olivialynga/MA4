@@ -5,9 +5,11 @@ class Integer{
 	public:
 		Integer(int);
 		int get();
+		int fib()
 		void set(int);
 	private:
 		int val;
+		int fib(int)
 	};
  
 Integer::Integer(int n){
@@ -18,6 +20,19 @@ int Integer::get(){
 	return val;
 	}
  
+int integer ::fib(){
+	return fib(val)
+	}
+''
+int integer ::fib_(int n){
+	if (n <= 1){
+		return n
+	}
+	else{
+		return (fib_py(n-1) + fib_py(n-2))
+	}
+	}
+
 void Integer::set(int n){
 	val = n;
 	}
