@@ -28,7 +28,8 @@ int Integer::fib_(int n){
 	if (n <= 1){
 		return n;
 	else{
-		return (fib_py(n-1) + fib_py(n-2));
+		return (fib_(n-1) + fib_(n-2));
+	}
 	}
 	
 
