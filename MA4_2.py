@@ -2,7 +2,7 @@
 
 from integer import Integer
 import matplotlib
-import matplotlib.pyplot as 
+import matplotlib.pyplot as plt
 import time
 
 def fib_py(n):
