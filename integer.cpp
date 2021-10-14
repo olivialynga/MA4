@@ -5,11 +5,11 @@ class Integer{
 	public:
 		Integer(int);
 		int get();
-		int fib()
+		int fib();
 		void set(int);
 	private:
 		int val;
-		int fib(int)
+		int fib(int);
 	};
  
 Integer::Integer(int n){
@@ -21,7 +21,7 @@ int Integer::get(){
 	}
  
 int integer ::fib(){
-	return fib(val)
+	return fib_(val)
 	}
 ''
 int integer ::fib_(int n){
