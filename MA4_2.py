@@ -24,13 +24,13 @@ plt.plot(length, fib_py_time)
 plt.show()
 
 def main():
-	f = Integer(5)
-	print(f.get())
-	f.set(7)
-	print(f.get())
-	f=Integer(n)
-
-	f.fib()
+    n=35
+    f = Integer(5)
+    print(f.get())
+    f.set(7)
+    print(f.get())
+    f=Integer(n)
+    f.fib()
 
 if __name__ == '__main__':
 	main()
