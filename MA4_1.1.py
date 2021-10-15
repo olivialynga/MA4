@@ -15,7 +15,6 @@ def func_pi(n):
         else:
             plt.plot(x,y,'bo')
 
-
     approx_pi = 4*(nc/int(n))
     print(f'pi: {math.pi}\napproximation: {approx_pi} med {n} slumpvariabler\n{nc} punkter i cirkeln')
 

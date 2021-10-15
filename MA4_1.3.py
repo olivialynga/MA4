@@ -17,7 +17,7 @@ def hyper_s(n, d):
 if __name__=='__main__':
     start = pc()
     n_lst=[100000 for x in range(10)]
-    d_lst=[10 for x in range(10)]
+    d_lst=[11 for x in range(10)]
     with future.ProcessPoolExecutor() as ex:
         results=list(ex.map(hyper_s, n_lst, d_lst))
         results=(lambda x,y: x+y/float(len(results)), results)

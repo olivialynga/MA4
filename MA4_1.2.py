@@ -6,8 +6,8 @@ import time
 
 n=input('slumpvisa koordinater: ')
 d=input('dimensioner: ')
-tstart = time . perf_counter ()
 
+tstart = time . perf_counter ()
 lst=[[random.uniform(-1.0000, 1.0000) for i in range(int(d))] for i in range(0, int(n))]
 n_in=0
 
@@ -17,13 +17,13 @@ for koord in lst:
     if V2<=1:
         n_in+=1
         
-#V_approx=2**int(d)*(int(n)/n_in)
+tstop = time . perf_counter ()
+
 V_approx=2**int(d)*(n_in/int(n))
 print(f'Approximerade värdet: {V_approx}')
 r=1
 V=((float(math.pi))**(int(d)/2))/(math.gamma((int(d)/2)+1))*r**int(d)
 print(f'Värdet: {V}')
-tstop = time . perf_counter ()
 print ( f"Measured time : {tstop - tstart } seconds ")
 
 
