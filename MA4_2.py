@@ -37,6 +37,9 @@ def main():
         f.fib()
         fib_c_time.append(time.time()-t_s)
     plt.plot(length_c, fib_c_time)
+    plt.xlabel('n')
+    plt.ylabel('sekunder')
+    plt.title('tid fib')
     matplotlib.pyplot.savefig("time.perf_counter.png")
     plt.show()
 
