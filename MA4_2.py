@@ -28,8 +28,10 @@ def main():
     print(f.get())
     f.set(7)
     print(f.get())
-    f=Integer(47)
-    print(f.fib())
+    #f=Integer(47)
+    #print(f.fib())
+    # -1323752223
+    # Overflow, max
 
     fib_c_time = []
     length_c = [x for x in range(35)]
