@@ -38,6 +38,7 @@ def main():
         f.fib()
         fib_c_time.append(time.time()-t_s)
     plt.plot(length_c, fib_c_time)
+    matplotlib.pyplot.savefig("Fib.C.Time.png")
     plt.show()
 
 
