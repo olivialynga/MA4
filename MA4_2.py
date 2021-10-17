@@ -29,15 +29,15 @@ def main():
     f.set(7)
     print(f.get())
 
-#    fib_c_time = []
-#    length_c = [x for x in range(25)]
-#    for n in length_c:
-#        t_s=time.time()
-#        f=Integer(n)
-#        f.fib()
-#        fib_c_time.append(time.time()-t_s)
-#    plt.plot(length_c, fib_c_time)
-#    plt.show()
+    fib_c_time = []
+    length_c = [x for x in range(25)]
+    for n in length_c:
+        t_s=time.time()
+        f=Integer(n)
+        f.fib()
+        fib_c_time.append(time.time()-t_s)
+    plt.plot(length_c, fib_c_time)
+    plt.show()
 
 
 if __name__ == '__main__':
