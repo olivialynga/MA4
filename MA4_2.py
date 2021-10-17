@@ -44,7 +44,6 @@ def main():
     plt.xlabel('n')
     plt.ylabel('sekunder')
     plt.title('tid fib')
-    plt.legend('fib_py(n)', 'f=Integer(n)')
     matplotlib.pyplot.savefig("time.perf_counter.png")
     plt.show()
 
