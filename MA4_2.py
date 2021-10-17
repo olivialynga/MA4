@@ -11,7 +11,7 @@ def fib_py(n):
     else:
         return (fib_py(n-1) + fib_py(n-2))
 
-length = [x for x in range(45)]
+length = [x for x in range(5,16)]
 
 fib_py_time = []
 
@@ -34,7 +34,7 @@ def main():
     # Overflow, max
 
     fib_c_time = []
-    length_c = [x for x in range(45)]
+    length_c = [x for x in range(5,16)]
     for n in length_c:
         t_s=time.time()
         f=Integer(n)
