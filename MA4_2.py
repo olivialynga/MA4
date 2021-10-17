@@ -11,7 +11,7 @@ def fib_py(n):
     else:
         return (fib_py(n-1) + fib_py(n-2))
 
-length = [x for x in range(25)]
+length = [x for x in range(35)]
 
 fib_py_time = []
 
@@ -30,7 +30,7 @@ def main():
     print(f.get())
 
     fib_c_time = []
-    length_c = [x for x in range(25)]
+    length_c = [x for x in range(35)]
     for n in length_c:
         t_s=time.time()
         f=Integer(n)
