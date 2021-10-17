@@ -11,7 +11,7 @@ def fib_py(n):
     else:
         return (fib_py(n-1) + fib_py(n-2))
 
-length = [x for x in range(5,16)]
+length = [x for x in range(30,46)]
 
 fib_py_time = []
 
@@ -34,7 +34,7 @@ def main():
     # Overflow, max
 
     fib_c_time = []
-    length_c = [x for x in range(5,16)]
+    length_c = [x for x in range(30,46)]
     for n in length_c:
         t_s=time.time()
         f=Integer(n)
@@ -43,7 +43,7 @@ def main():
     plt.plot(length_c, fib_c_time)
     plt.xlabel('n')
     plt.ylabel('sekunder')
-    plt.title('tid fib')
+    plt.title('Fibonacci')
     matplotlib.pyplot.savefig("time.perf_counter.png")
     plt.show()
 
