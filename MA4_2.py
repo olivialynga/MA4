@@ -21,7 +21,7 @@ for i in length:
     fib_py_time.append(time.time()-ts)
 
 plt.plot(length, fib_py_time)
-matplotlib.pyplot.savfig("FibTime.png")
+matplotlib.pyplot.savefig("FibTime.png")
 plt.show()
 
 def main():
