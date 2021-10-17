@@ -21,7 +21,6 @@ for i in length:
     fib_py_time.append(time.time()-ts)
 
 plt.plot(length, fib_py_time)
-matplotlib.pyplot.savefig("FibTime.png")
 plt.show()
 
 def main():
@@ -38,7 +37,7 @@ def main():
         f.fib()
         fib_c_time.append(time.time()-t_s)
     plt.plot(length_c, fib_c_time)
-    matplotlib.pyplot.savefig("Fib.C.Time.png")
+    matplotlib.pyplot.savefig("time.perf_counter.png")
     plt.show()
 
 
